@@ -1,9 +1,11 @@
 {
-  "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "build": "coffee brew coffee-app"
   },
   "dependencies": {
     "@clack/prompts": "^0.0.5"
+  },
+  "devDependencies": {
+    "chalk": "^5.2.0"
   }
 }
